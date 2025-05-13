@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("shared/assets/fonts/Tactic.Sans/TacticSans-Blk.eot");
+  src: local("Tactic Sans"), local("TacticSans-Blk"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-Blk.eot?#iefix")
+      format("embedded-opentype"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-Blk.woff2") format("woff2"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-Blk.woff") format("woff"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-Blk.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Tactic Sans";
+  src: url("shared/assets/fonts/Tactic.Sans/TacticSans-BlkIt.eot");
+  src: local("Tactic Sans Italic"), local("TacticSans-BlkIt"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-BlkIt.eot?#iefix")
+      format("embedded-opentype"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-BlkIt.woff2")
+      format("woff2"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-BlkIt.woff") format("woff"),
+    url("shared/assets/fonts/Tactic.Sans/TacticSans-BlkIt.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: italic;
 }
