@@ -1,5 +1,5 @@
-import Header from "./shared/assets/layout/Header/Header";
-import MatchList from "./features/MatchTracker/components/MatchList/MatchList";
+import Header from "./layouts/Header/Header";
+import MatchList from "../features/matches/ui/MatchList/MatchList";
 function App() {
   return (
     <div style={{ background: "black" }} className="App">

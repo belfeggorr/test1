@@ -1,4 +1,4 @@
-import { Match } from "../types";
+import { Match } from "../types/types";
 
 const mockData: Match[] = [
   {
@@ -83,8 +83,8 @@ const mockData: Match[] = [
   },
 ];
 
-const getMatches = async (): Promise<Match[]> => {
+export const getMatches = async (): Promise<Match[]> => {
   return new Promise((resolve) => setTimeout(() => resolve(mockData), 500));
 };
 
-export default { getMatches };
+export default  getMatches ;

@@ -1,22 +1,13 @@
 import { useState } from "react";
 import StatusBadge from "../StatusBadge/StatusBadge";
-import { Player } from "../../types";
-import { MatchCardProps } from "../../types";
-import illustrations_role from "../../../../shared/assets/illustrations_role.png";
+import { Player } from "../../lib/types/types";
+import { MatchCardProps } from "../../lib/types/types";
+import illustrations_role from "./assets/illustrations_role.png";
 
 const MatchCard = ({ match }: MatchCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = () => setIsExpanded((prev) => !prev);
-
-  const winner =
-    match.status === "finished"
-      ? match.score1 > match.score2
-        ? "team1"
-        : match.score1 < match.score2
-        ? "team2"
-        : "draw"
-      : null;
 
   return (
     <div
