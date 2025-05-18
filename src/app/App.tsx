@@ -1,5 +1,5 @@
 import Header from "./layouts/Header/Header";
-import MatchList from "../features/matches/ui/MatchList/MatchList";
+import MatchList from "../features/matchList/ui/MatchList";
 function App() {
   return (
     <div style={{ background: "black" }} className="App">

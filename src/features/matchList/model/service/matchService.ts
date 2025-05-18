@@ -1,4 +1,4 @@
-import { Match } from "../types/types";
+import { Match } from "../../../matchCard/lib/types/types";
 
 const mockData: Match[] = [
   {
@@ -87,4 +87,4 @@ export const getMatches = async (): Promise<Match[]> => {
   return new Promise((resolve) => setTimeout(() => resolve(mockData), 500));
 };
 
-export default  getMatches ;
+export default getMatches;

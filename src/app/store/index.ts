@@ -1,5 +1,5 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-import matchReducer from "../../features/matches/model/matchSlice";
+import matchReducer from "../../features/matchCard/model/matchSlice";
 
 export const rootReducer = combineReducers({
   matchReducer,

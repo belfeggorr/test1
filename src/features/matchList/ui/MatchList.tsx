@@ -1,6 +1,6 @@
-import MatchCard from "../MatchCard/MatchCard";
-import { Match } from "../../lib/types/types";
-import useMatch from "../../lib/hooks/useMatches";
+import MatchCard from "../../matchCard/ui/MatchCard";
+import { Match } from "../../matchCard/lib/types/types";
+import useMatch from "../../matchCard/lib/hooks/useMatches";
 
 const MatchList = () => {
   const { error, isLoading, matches } = useMatch();

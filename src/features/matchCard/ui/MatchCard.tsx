@@ -1,8 +1,8 @@
 import { useState } from "react";
-import StatusBadge from "../StatusBadge/StatusBadge";
-import { Player } from "../../lib/types/types";
-import { MatchCardProps } from "../../lib/types/types";
-import illustrations_role from "./assets/illustrations_role.png";
+import StatusBadge from "../../../shared/ui/StatusBadge/StatusBadge";
+import { Player } from "../lib/types/types";
+import { MatchCardProps } from "../lib/types/types";
+import illustrations_role from "../assets/illustrations_role.png";
 
 const MatchCard = ({ match }: MatchCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
